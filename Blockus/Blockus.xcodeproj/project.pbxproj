@@ -16,6 +16,7 @@
 		10F354CE2048A9F70090BCE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F354CC2048A9F70090BCE4 /* Main.storyboard */; };
 		10F354D02048A9F70090BCE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F354CF2048A9F70090BCE4 /* Assets.xcassets */; };
 		10F354D32048A9F70090BCE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F354D12048A9F70090BCE4 /* LaunchScreen.storyboard */; };
+		10F3E08A206D983B00E02ADE /* CGFloatUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3E089206D983B00E02ADE /* CGFloatUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		10F354D42048A9F70090BCE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10F354D92048A9F70090BCE4 /* BlockusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F354E42048A9F70090BCE4 /* BlockusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F3E089206D983B00E02ADE /* CGFloatUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		10F354C12048A9F70090BCE4 /* Blockus */ = {
 			isa = PBXGroup;
 			children = (
+				10F3E08B206D984F00E02ADE /* Utilities */,
 				10F354C22048A9F70090BCE4 /* AppDelegate.swift */,
 				10F354C42048A9F70090BCE4 /* GameScene.sks */,
 				10F354C62048A9F70090BCE4 /* Actions.sks */,
@@ -109,6 +112,15 @@
 				105DEC432064551B00ECFBEE /* GameObject.swift */,
 			);
 			path = Blockus;
+			sourceTree = "<group>";
+		};
+		10F3E08B206D984F00E02ADE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				10F3E089206D983B00E02ADE /* CGFloatUtility.swift */,
+			);
+			name = Utilities;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +263,7 @@
 				10F354C92048A9F70090BCE4 /* GameScene.swift in Sources */,
 				10F354CB2048A9F70090BCE4 /* GameViewController.swift in Sources */,
 				10F354C32048A9F70090BCE4 /* AppDelegate.swift in Sources */,
+				10F3E08A206D983B00E02ADE /* CGFloatUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

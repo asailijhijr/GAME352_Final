@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		105DEC442064551B00ECFBEE /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DEC432064551B00ECFBEE /* GameObject.swift */; };
+		108A6A192076B98B00A5FF79 /* CGPointUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108A6A182076B98B00A5FF79 /* CGPointUtility.swift */; };
+		108A6A1B2076C07100A5FF79 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108A6A1A2076C07100A5FF79 /* Shape.swift */; };
 		10F354C32048A9F70090BCE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F354C22048A9F70090BCE4 /* AppDelegate.swift */; };
 		10F354C52048A9F70090BCE4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 10F354C42048A9F70090BCE4 /* GameScene.sks */; };
 		10F354C72048A9F70090BCE4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 10F354C62048A9F70090BCE4 /* Actions.sks */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		105DEC432064551B00ECFBEE /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		108A6A182076B98B00A5FF79 /* CGPointUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointUtility.swift; sourceTree = "<group>"; };
+		108A6A1A2076C07100A5FF79 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		10F354BF2048A9F70090BCE4 /* Blockus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blockus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F354C22048A9F70090BCE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10F354C42048A9F70090BCE4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -110,6 +114,7 @@
 				10F354D12048A9F70090BCE4 /* LaunchScreen.storyboard */,
 				10F354D42048A9F70090BCE4 /* Info.plist */,
 				105DEC432064551B00ECFBEE /* GameObject.swift */,
+				108A6A1A2076C07100A5FF79 /* Shape.swift */,
 			);
 			path = Blockus;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				10F3E089206D983B00E02ADE /* CGFloatUtility.swift */,
+				108A6A182076B98B00A5FF79 /* CGPointUtility.swift */,
 			);
 			name = Utilities;
 			path = "New Group";
@@ -262,8 +268,10 @@
 				105DEC442064551B00ECFBEE /* GameObject.swift in Sources */,
 				10F354C92048A9F70090BCE4 /* GameScene.swift in Sources */,
 				10F354CB2048A9F70090BCE4 /* GameViewController.swift in Sources */,
+				108A6A1B2076C07100A5FF79 /* Shape.swift in Sources */,
 				10F354C32048A9F70090BCE4 /* AppDelegate.swift in Sources */,
 				10F3E08A206D983B00E02ADE /* CGFloatUtility.swift in Sources */,
+				108A6A192076B98B00A5FF79 /* CGPointUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

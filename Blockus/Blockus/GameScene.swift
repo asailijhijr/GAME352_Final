@@ -11,7 +11,17 @@ import GameplayKit
 
 class GameScene: SKScene {
     
+    //added for database testing
+    var db : myDatabase = myDatabase();
+    
     override func didMove(to view: SKView) {
+        //added for database testing
+        db.requestStats() { arg1 in
+            //do nothing
+            //print(arg1)
+        }
+        
+        db.updateScore(newScore: 100);
     }
     
     

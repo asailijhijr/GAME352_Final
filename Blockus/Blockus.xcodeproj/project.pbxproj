@@ -10,6 +10,20 @@
 		105DEC442064551B00ECFBEE /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DEC432064551B00ECFBEE /* GameObject.swift */; };
 		108A6A192076B98B00A5FF79 /* CGPointUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108A6A182076B98B00A5FF79 /* CGPointUtility.swift */; };
 		108A6A1B2076C07100A5FF79 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108A6A1A2076C07100A5FF79 /* Shape.swift */; };
+		10CF9046207FEE4900FD410C /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CF903F207FEE4800FD410C /* FirebaseCore.framework */; };
+		10CF9047207FEE4900FD410C /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CF9040207FEE4800FD410C /* GoogleToolboxForMac.framework */; };
+		10CF9048207FEE4900FD410C /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CF9041207FEE4800FD410C /* nanopb.framework */; };
+		10CF9049207FEE4900FD410C /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CF9042207FEE4900FD410C /* FirebaseAnalytics.framework */; };
+		10CF904A207FEE4900FD410C /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CF9043207FEE4900FD410C /* FirebaseNanoPB.framework */; };
+		10CF904B207FEE4900FD410C /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CF9044207FEE4900FD410C /* FirebaseCoreDiagnostics.framework */; };
+		10CF904C207FEE4900FD410C /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CF9045207FEE4900FD410C /* FirebaseInstanceID.framework */; };
+		10CF904F207FEE6A00FD410C /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CF904D207FEE6A00FD410C /* FirebaseDatabase.framework */; };
+		10CF9050207FEE6A00FD410C /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CF904E207FEE6A00FD410C /* leveldb-library.framework */; };
+		10CF9052207FF18800FD410C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10CF9051207FF18800FD410C /* GoogleService-Info.plist */; };
+		10CF9055207FF2AB00FD410C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CF9054207FF2AB00FD410C /* StoreKit.framework */; };
+		10CF9057207FF2C900FD410C /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CF9056207FF2C900FD410C /* libicucore.tbd */; };
+		10CF9059207FF2D300FD410C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CF9058207FF2D300FD410C /* libsqlite3.tbd */; };
+		10CF905C207FF69600FD410C /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CF905B207FF69600FD410C /* Database.swift */; };
 		10F354C32048A9F70090BCE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F354C22048A9F70090BCE4 /* AppDelegate.swift */; };
 		10F354C52048A9F70090BCE4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 10F354C42048A9F70090BCE4 /* GameScene.sks */; };
 		10F354C72048A9F70090BCE4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 10F354C62048A9F70090BCE4 /* Actions.sks */; };
@@ -42,6 +56,21 @@
 		105DEC432064551B00ECFBEE /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
 		108A6A182076B98B00A5FF79 /* CGPointUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointUtility.swift; sourceTree = "<group>"; };
 		108A6A1A2076C07100A5FF79 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		10CF903F207FEE4800FD410C /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		10CF9040207FEE4800FD410C /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		10CF9041207FEE4800FD410C /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		10CF9042207FEE4900FD410C /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		10CF9043207FEE4900FD410C /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		10CF9044207FEE4900FD410C /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		10CF9045207FEE4900FD410C /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		10CF904D207FEE6A00FD410C /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = "<group>"; };
+		10CF904E207FEE6A00FD410C /* leveldb-library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "leveldb-library.framework"; sourceTree = "<group>"; };
+		10CF9051207FF18800FD410C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		10CF9054207FF2AB00FD410C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		10CF9056207FF2C900FD410C /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		10CF9058207FF2D300FD410C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		10CF905A207FF5FF00FD410C /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		10CF905B207FF69600FD410C /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		10F354BF2048A9F70090BCE4 /* Blockus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blockus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F354C22048A9F70090BCE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10F354C42048A9F70090BCE4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -62,6 +91,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10CF9059207FF2D300FD410C /* libsqlite3.tbd in Frameworks */,
+				10CF9057207FF2C900FD410C /* libicucore.tbd in Frameworks */,
+				10CF9055207FF2AB00FD410C /* StoreKit.framework in Frameworks */,
+				10CF9049207FEE4900FD410C /* FirebaseAnalytics.framework in Frameworks */,
+				10CF9046207FEE4900FD410C /* FirebaseCore.framework in Frameworks */,
+				10CF904A207FEE4900FD410C /* FirebaseNanoPB.framework in Frameworks */,
+				10CF904B207FEE4900FD410C /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				10CF904F207FEE6A00FD410C /* FirebaseDatabase.framework in Frameworks */,
+				10CF9050207FEE6A00FD410C /* leveldb-library.framework in Frameworks */,
+				10CF904C207FEE4900FD410C /* FirebaseInstanceID.framework in Frameworks */,
+				10CF9048207FEE4900FD410C /* nanopb.framework in Frameworks */,
+				10CF9047207FEE4900FD410C /* GoogleToolboxForMac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,11 +123,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10CF9053207FF2AA00FD410C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10CF9058207FF2D300FD410C /* libsqlite3.tbd */,
+				10CF9056207FF2C900FD410C /* libicucore.tbd */,
+				10CF9054207FF2AB00FD410C /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		10F354B62048A9F70090BCE4 = {
 			isa = PBXGroup;
 			children = (
 				10F354C12048A9F70090BCE4 /* Blockus */,
 				10F354C02048A9F70090BCE4 /* Products */,
+				10CF904D207FEE6A00FD410C /* FirebaseDatabase.framework */,
+				10CF904E207FEE6A00FD410C /* leveldb-library.framework */,
+				10CF9042207FEE4900FD410C /* FirebaseAnalytics.framework */,
+				10CF903F207FEE4800FD410C /* FirebaseCore.framework */,
+				10CF9044207FEE4900FD410C /* FirebaseCoreDiagnostics.framework */,
+				10CF9045207FEE4900FD410C /* FirebaseInstanceID.framework */,
+				10CF9043207FEE4900FD410C /* FirebaseNanoPB.framework */,
+				10CF9040207FEE4800FD410C /* GoogleToolboxForMac.framework */,
+				10CF9041207FEE4800FD410C /* nanopb.framework */,
+				10CF9051207FF18800FD410C /* GoogleService-Info.plist */,
+				10CF9053207FF2AA00FD410C /* Frameworks */,
+				10CF905A207FF5FF00FD410C /* Firebase.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +178,7 @@
 				10F354D42048A9F70090BCE4 /* Info.plist */,
 				105DEC432064551B00ECFBEE /* GameObject.swift */,
 				108A6A1A2076C07100A5FF79 /* Shape.swift */,
+				10CF905B207FF69600FD410C /* Database.swift */,
 			);
 			path = Blockus;
 			sourceTree = "<group>";
@@ -241,6 +305,7 @@
 				10F354D02048A9F70090BCE4 /* Assets.xcassets in Resources */,
 				10F354D32048A9F70090BCE4 /* LaunchScreen.storyboard in Resources */,
 				10F354C72048A9F70090BCE4 /* Actions.sks in Resources */,
+				10CF9052207FF18800FD410C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +336,7 @@
 				108A6A1B2076C07100A5FF79 /* Shape.swift in Sources */,
 				10F354C32048A9F70090BCE4 /* AppDelegate.swift in Sources */,
 				10F3E08A206D983B00E02ADE /* CGFloatUtility.swift in Sources */,
+				10CF905C207FF69600FD410C /* Database.swift in Sources */,
 				108A6A192076B98B00A5FF79 /* CGPointUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,8 +502,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Blockus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Humber.Blockus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -450,8 +524,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Blockus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Humber.Blockus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

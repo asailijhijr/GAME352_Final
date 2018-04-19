@@ -35,7 +35,7 @@ let dataBase: DatabaseReference;
     
     //up to here is what we wrote in class
     func updateScore(newScore: Int) {
-        let knownHighScore = 200;
+        let knownHighScore = 2000;
         
         //suggested from https://firebase.google.com/docs/database/ios/read-and-write#update_specific_fields I couldn't understand it well enough, now I'm reading the reference instead of the guides
         //let key = dataBase.child("game-352-final/HighScore").childByAutoId().key;
@@ -43,7 +43,7 @@ let dataBase: DatabaseReference;
         //dataBase.child("game-352-final/HighScore").updateChildValues(post);
         
         //Now I'm reading https://firebase.google.com/docs/reference/ios/firebasedatabase/api/reference/Classes/FIRDatabaseReference#-setvalue to figure this out
-        dataBase.setValue(knownHighScore, forKey: "HighScore/NewUsername");
+        dataBase.child("HighScore").child("newerUser").setValue(knownHighScore)
     }
 
 }

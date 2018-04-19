@@ -2,12 +2,12 @@
 //  GameObject.swift
 //  Blockus
 //
-//  Created by Garland Kevin C. on 3/22/18.
+//  Created by Kevin C. Garland on 3/22/18.
 //  Copyright © 2018 Kevin C. Garland. All rights reserved.
 //
 
 import Foundation
-import SpriteKit
+import SpriteKit;
 
 //Versioning note, this class has incomplete function bodies.
 
@@ -18,6 +18,23 @@ class GameObject : SKNode {
     //var position: CGPoint; //SKNode already has this and seems to use it for the purpose I want it for.
     var velocity: CGPoint
     
+    override init() {
+        level = 1;
+        shape = .none;
+        velocity = CGPoint(x: 0.0, y: 0.0);
+        super.init();
+        position = CGPoint(x: 0.0, y: 0.0);
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        level = 1;
+        shape = .none;
+        velocity = CGPoint(x: 0.0, y: 0.0);
+        super.init(coder: aDecoder);
+        position = CGPoint(x: 0.0, y: 0.0);
+        //Is this acceptble?
+        //fatalError("init(coder:) has not been fully implemented.");
+    }
     init(givenShape: Shape, givenPosition: CGPoint, givenVelocity: CGPoint) {
         level = 1;
         shape = givenShape;
@@ -32,16 +49,6 @@ class GameObject : SKNode {
         velocity = CGPoint(x: 0.0, y: 0.0);
         super.init();
         position = givenPosition;
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        level = 1;
-        shape = .none;
-        velocity = CGPoint(x: 0.0, y: 0.0);
-        super.init(coder: aDecoder);
-        position = CGPoint(x: 0.0, y: 0.0);
-        //Is this acceptble?
-        //fatalError("init(coder:) has not been fully implemented.");
     }
     
     func doesCollide(other : GameObject) -> Bool {

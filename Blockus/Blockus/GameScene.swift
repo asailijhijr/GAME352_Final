@@ -11,6 +11,8 @@ import GameplayKit
 
 class GameScene: SKScene {
     
+    var thePaddle: Paddle?
+    
     //added for database testing
     var db : myDatabase = myDatabase();
     

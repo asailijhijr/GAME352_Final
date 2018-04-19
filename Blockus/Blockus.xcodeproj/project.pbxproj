@@ -24,6 +24,8 @@
 		10CF9057207FF2C900FD410C /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CF9056207FF2C900FD410C /* libicucore.tbd */; };
 		10CF9059207FF2D300FD410C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CF9058207FF2D300FD410C /* libsqlite3.tbd */; };
 		10CF905C207FF69600FD410C /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CF905B207FF69600FD410C /* Database.swift */; };
+		10D14F08208932AD00399679 /* Paddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D14F07208932AD00399679 /* Paddle.swift */; };
+		10D14F0A2089466000399679 /* Plans.txt in Resources */ = {isa = PBXBuildFile; fileRef = 10D14F092089466000399679 /* Plans.txt */; };
 		10F354C32048A9F70090BCE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F354C22048A9F70090BCE4 /* AppDelegate.swift */; };
 		10F354C52048A9F70090BCE4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 10F354C42048A9F70090BCE4 /* GameScene.sks */; };
 		10F354C72048A9F70090BCE4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 10F354C62048A9F70090BCE4 /* Actions.sks */; };
@@ -71,6 +73,8 @@
 		10CF9058207FF2D300FD410C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		10CF905A207FF5FF00FD410C /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
 		10CF905B207FF69600FD410C /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		10D14F07208932AD00399679 /* Paddle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paddle.swift; sourceTree = "<group>"; };
+		10D14F092089466000399679 /* Plans.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Plans.txt; path = ../Plans.txt; sourceTree = "<group>"; };
 		10F354BF2048A9F70090BCE4 /* Blockus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blockus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F354C22048A9F70090BCE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10F354C42048A9F70090BCE4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -133,9 +137,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		10D14F062089328500399679 /* GameObjects */ = {
+			isa = PBXGroup;
+			children = (
+				108A6A1A2076C07100A5FF79 /* Shape.swift */,
+				105DEC432064551B00ECFBEE /* GameObject.swift */,
+				10D14F07208932AD00399679 /* Paddle.swift */,
+			);
+			path = GameObjects;
+			sourceTree = "<group>";
+		};
 		10F354B62048A9F70090BCE4 = {
 			isa = PBXGroup;
 			children = (
+				10D14F092089466000399679 /* Plans.txt */,
 				10F354C12048A9F70090BCE4 /* Blockus */,
 				10F354C02048A9F70090BCE4 /* Products */,
 				10CF904D207FEE6A00FD410C /* FirebaseDatabase.framework */,
@@ -166,6 +181,7 @@
 		10F354C12048A9F70090BCE4 /* Blockus */ = {
 			isa = PBXGroup;
 			children = (
+				10D14F062089328500399679 /* GameObjects */,
 				10F3E08B206D984F00E02ADE /* Utilities */,
 				10F354C22048A9F70090BCE4 /* AppDelegate.swift */,
 				10F354C42048A9F70090BCE4 /* GameScene.sks */,
@@ -176,8 +192,6 @@
 				10F354CF2048A9F70090BCE4 /* Assets.xcassets */,
 				10F354D12048A9F70090BCE4 /* LaunchScreen.storyboard */,
 				10F354D42048A9F70090BCE4 /* Info.plist */,
-				105DEC432064551B00ECFBEE /* GameObject.swift */,
-				108A6A1A2076C07100A5FF79 /* Shape.swift */,
 				10CF905B207FF69600FD410C /* Database.swift */,
 			);
 			path = Blockus;
@@ -305,6 +319,7 @@
 				10F354D02048A9F70090BCE4 /* Assets.xcassets in Resources */,
 				10F354D32048A9F70090BCE4 /* LaunchScreen.storyboard in Resources */,
 				10F354C72048A9F70090BCE4 /* Actions.sks in Resources */,
+				10D14F0A2089466000399679 /* Plans.txt in Resources */,
 				10CF9052207FF18800FD410C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +348,7 @@
 				105DEC442064551B00ECFBEE /* GameObject.swift in Sources */,
 				10F354C92048A9F70090BCE4 /* GameScene.swift in Sources */,
 				10F354CB2048A9F70090BCE4 /* GameViewController.swift in Sources */,
+				10D14F08208932AD00399679 /* Paddle.swift in Sources */,
 				108A6A1B2076C07100A5FF79 /* Shape.swift in Sources */,
 				10F354C32048A9F70090BCE4 /* AppDelegate.swift in Sources */,
 				10F3E08A206D983B00E02ADE /* CGFloatUtility.swift in Sources */,

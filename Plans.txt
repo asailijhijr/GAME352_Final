@@ -1,0 +1,7 @@
+Classes I plan to create or may create:
+- Brick
+- Column
+- Game?
+- RuleSet?
+- ParticleManager/Factory
+
